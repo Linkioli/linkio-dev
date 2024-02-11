@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/sunset-eagle.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gallery</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #282828;
+    }
+
+    .container {
+        column-count: 3; /* Number of columns */
+        column-gap: 10px; /* Gap between columns */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .item {
+        display: inline-block;
+        margin: 0 0 10px; /* Adjust the space between items */
+        width: 100%; /* To make sure each item takes full width of the column */
+        break-inside: avoid-column; /* Prevent items from breaking into multiple columns */
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .item img {
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        transition: transform 0.3s ease;
+    }
+
+    .item:hover img {
+        transform: scale(1.1);
+    }
+</style>
+<body>
+    <main>
+        <a href="https://linkio.dev/">
+            <header>
+                <h1 id="home-button">Gallery</h1>
+            </header>
+        </a>
+        <article>
+            <h2 id='artworks'>Art Works</h2>
+            <div class="container">
+                <div class="item">
+                    <a href="gallary/sunset-eagle.html">
+                        <img src="images/sunset-eagle.jpg" alt="sunset eagle">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="gallary/a-lonely-knight.html">
+                        <img src="images/a-lonely-knight.jpg" alt="sunset eagle">
+                    </a>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <a href="https://linkio.dev/">https://linkio.dev/</a>
+    </footer>
+</body>
+</html>
+
