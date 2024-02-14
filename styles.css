@@ -24,6 +24,10 @@ a {
     color: #b16286; /* Purple */
 }
 
+.normal-link {
+    text-decoration: underline;
+}
+
 code {
     color: #8ec07c; /* Aqua */
 }
