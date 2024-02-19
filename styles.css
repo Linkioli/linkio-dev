@@ -64,6 +64,15 @@ footer {
     max-height: 100%;
 }
 
+.astro-img {
+    display: block;
+    margin: auto;
+    margin-left: -22%;
+    text-align: center;
+    max-width: 150%;
+    max-height: 100%;
+}
+
 main {
     margin: auto;
     max-width: 800px;
@@ -88,4 +97,8 @@ figcaption {
     max-width: 90%;
     max-height: 400px;
     display: block;
+}
+
+#astro-article {
+    margin: auto 20px;
 }
